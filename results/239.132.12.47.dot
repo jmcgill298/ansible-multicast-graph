@@ -1,0 +1,69 @@
+digraph network {
+  /* graph metadata */
+  label="Multicast routing for 239.132.12.47 (compiled )";
+  labelloc=top;
+  labeljust=left;
+
+  /* hosts */
+    "REXTEQ410" [
+        shape=box;
+    ];
+
+  /* multicast routes */
+    REXTEQ408 -> REXTEQ410 [label="REXTEQ408:Et1/50\n-\nREXTEQ410:Et1/49\n(170.52.35.103, 239.132.12.47)"; fontcolor="darkgreen"; color="darkgreen"]
+
+  /* IGMP snoops */
+    REXTEQ410 -> REXTEQ410_Et1_19 [color="blue"; fontcolor="blue"; label="Eth1/19";];
+    REXTEQ410 -> REXTEQ410_Et1_39 [color="blue"; fontcolor="blue"; label="Eth1/39";];
+
+  /* Publishers */
+
+  /* Legend */
+  subgraph cluster_key {
+    label="Key"
+    pos="0,0!"
+
+    rp [
+      shape=box;
+      style=filled;
+      fillcolor=grey80;
+      label="RP";
+    ];
+
+    publisher [
+      shape=diamond;
+      style=filled;
+      fillcolor=orange;
+      label="Publisher";
+    ];
+
+    left [
+      shape=box;
+      label="Queried Device";
+    ];
+    right [
+      label="Discovered Device";
+    ];
+
+    left -> right [
+      label="PIM (*,G) join";
+      fontcolor="red";
+      color="red";
+    ]
+
+    left -> right [
+      label="PIM (S,G) join";
+      fontcolor="darkgreen";
+      color="darkgreen";
+    ]
+
+    left -> right [
+      label="IGMP join";
+      fontcolor="blue";
+      color="blue";
+    ]
+
+    publisher -> left;
+
+  }
+}

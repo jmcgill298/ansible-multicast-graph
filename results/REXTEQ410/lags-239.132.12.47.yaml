@@ -1,0 +1,20 @@
+- bundle_iface: Po20
+  bundle_proto: LACP
+  bundle_proto_state: ''
+  bundle_status: (SD)
+  phys_iface:
+  - Eth1/19
+  - Eth1/20
+  phys_iface_status:
+  - (I)
+  - (I)
+- bundle_iface: Po21
+  bundle_proto: LACP
+  bundle_proto_state: ''
+  bundle_status: (SD)
+  phys_iface:
+  - Eth1/37
+  - Eth1/38
+  phys_iface_status:
+  - (I)
+  - (I)

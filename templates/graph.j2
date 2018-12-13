@@ -24,7 +24,7 @@ digraph network {
 {% endfor %}
 
   /* multicast routes */
-{% for label, edge in edges.iteritems() %}
+{% for label, edge in edges.items() %}
     {{ edge.left_host }} -> {{ edge.right_host }} [label="{{ label }}"; fontcolor="{{ link_colour(edge.publisher) }}"; color="{{ link_colour(edge.publisher) }}"]
 {% endfor %}
 

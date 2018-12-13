@@ -1,0 +1,14 @@
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID             Local Intf      Hold-time  Capability  Port ID  
+SILOEQ408.us.world.socgen mgmt0           120       B           Ethernet5     
+REXTGFXEQ402.us.world.socgen Eth1/1          120       B           Eth1/7        
+rnexequ006            Eth1/4          120       BR          Ethernet1/37  
+apdeq401              Eth1/5          240       S           000f.533e.eaf0
+REXTEQ402.us.world.socgen Eth1/47         120       BR          Ethernet1/43  
+REXTEQ408.us.world.socgen Eth1/49         120       BR          Ethernet1/50  
+REXTEQ411.us.world.socgen Eth1/50         120       BR          Ethernet1/50  
+REXTEQ412.us.world.socgen Eth1/51         120       BR          Ethernet1/50  
+REXTEQ413.us.world.socgen Eth1/52         120       BR          Ethernet1/50  
+Total entries displayed: 9

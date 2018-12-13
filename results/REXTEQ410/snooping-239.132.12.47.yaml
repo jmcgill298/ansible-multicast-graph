@@ -1,0 +1,7 @@
+- group: 239.132.12.47
+  ports:
+  - Eth1/19
+  - Eth1/39
+  type: D
+  version: v2
+  vlan: '110'

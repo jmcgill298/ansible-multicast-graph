@@ -1,0 +1,12 @@
+IP Multicast Routing Table for VRF "LOWER"
+
+(*, 239.132.12.47/32), uptime: 5w2d, ip pim igmp 
+  Incoming interface: loopback100, RPF nbr: 170.52.255.12, uptime: 5w2d
+  Outgoing interface list: (count: 2)
+    Vlan110, uptime: 08:58:06, igmp
+    Ethernet1/3, uptime: 4w5d, pim
+
+(170.52.35.103/32, 239.132.12.47/32), uptime: 09:43:10, pim mrib ip 
+  Incoming interface: Ethernet1/49, RPF nbr: 170.52.54.161, uptime: 09:43:10, internal
+  Outgoing interface list: (count: 1)
+    Vlan110, uptime: 08:58:06, mrib

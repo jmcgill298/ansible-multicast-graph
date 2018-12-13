@@ -4,15 +4,14 @@
   connection: local
   gather_facts: false
   vars_files:
-    - "{{vault_file|default('./secrets/vault.yml')}}"
     - "{{inventory_dir}}/vars/ntc.yml"
   vars:
     mcast_group: "UNSET"
     mcast_net: "224.0.0.0/4"
-    results: "{{inventory_dir}}/outputs"
+    results: "results"
     host_results: "{{ results }}/{{ inventory_hostname }}"
     task_list:
-      - "tasks/{{os}}/{{task_path|basename}}"
+      - "tasks/{{ansible_network_os}}/{{task_path|basename}}"
       - "{{task_path}}"
 
   tasks:

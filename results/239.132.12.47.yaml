@@ -1,0 +1,903 @@
+---
+_meta:
+  compiled_at: ""
+REXTEQ410:
+  rp:
+    []
+  mroutes:
+    - group: 239.132.12.47/32
+      incoming_iface: loopback100
+      outgoing_iface:
+      - Vlan110
+      - Ethernet1/3
+      outgoing_iface_count: '2'
+      publisher: '*'
+      uptime: 5w2d
+    - group: 239.132.12.47/32
+      incoming_iface: Ethernet1/49
+      outgoing_iface:
+      - Vlan110
+      outgoing_iface_count: '1'
+      publisher: 170.52.35.103/32
+      uptime: 09:43:10
+  snooping:
+    - group: 239.132.12.47
+      ports:
+      - Eth1/19
+      - Eth1/39
+      type: D
+      version: v2
+      vlan: '110'
+  neighbours:
+    - local_interface: Eth1/1
+      neighbor: REXTGFXEQ402.us.world.socgen
+      neighbor_interface: Eth1/7
+    - local_interface: Eth1/4
+      neighbor: rnexequ006
+      neighbor_interface: Ethernet1/37
+    - local_interface: Eth1/5
+      neighbor: apdeq401
+      neighbor_interface: 000f.533e.eaf0
+    - local_interface: Eth1/47
+      neighbor: REXTEQ402.us.world.socgen
+      neighbor_interface: Ethernet1/43
+    - local_interface: Eth1/49
+      neighbor: REXTEQ408.us.world.socgen
+      neighbor_interface: Ethernet1/50
+    - local_interface: Eth1/50
+      neighbor: REXTEQ411.us.world.socgen
+      neighbor_interface: Ethernet1/50
+    - local_interface: Eth1/51
+      neighbor: REXTEQ412.us.world.socgen
+      neighbor_interface: Ethernet1/50
+    - local_interface: Eth1/52
+      neighbor: REXTEQ413.us.world.socgen
+      neighbor_interface: Ethernet1/50
+  interfaces:
+    - address: 30f7.0d9f.6ac1
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a88
+      delay: 10 usec
+      description: <>REXTGFXEQ402_E1/7_GFX_LOWER_Secondary
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/1
+      ip_address: 170.52.62.30/30
+      link_status: up
+      mtu: '1500'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6ac1
+      admin_state: ''
+      bandwidth: 1000000 Kbit
+      bia: 30f7.0d9f.6a89
+      delay: 10 usec
+      description: <>London_EMEA_Secondary_WSNS000GE-0431
+      duplex: auto-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/2
+      ip_address: 192.195.200.30/30
+      link_status: down (Administratively down)
+      mtu: '1500'
+      speed: 1000 Mb/s
+    - address: 30f7.0d9f.6ac1
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a8a
+      delay: 10 usec
+      description: '<>RDMZCET03_T1/4_GI/Ethernet-PL/00623446  '
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/3
+      ip_address: 170.52.54.250/30
+      link_status: up
+      mtu: '1500'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6ac1
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a8b
+      delay: 10 usec
+      description: <>London_EMEA_Secondary_10G
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/4
+      ip_address: 192.195.200.30/30
+      link_status: up
+      mtu: '1500'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a8c
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a8c
+      delay: 10 usec
+      description: apdeq401_eth0
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/5
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a8d
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a8d
+      delay: 10 usec
+      description: appeq404-L1M-EQ405_P6
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/6
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a8e
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a8e
+      delay: 10 usec
+      description: appeq409
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/7
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a8f
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a8f
+      delay: 10 usec
+      description: appeq427
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/8
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a90
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a90
+      delay: 10 usec
+      description: appeq495-L1M-EQ405_P8
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/9
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a91
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a91
+      delay: 10 usec
+      description: appeq497-L1M-EQ405_P10
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/10
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a92
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a92
+      delay: 10 usec
+      description: eq4asfua01
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/11
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a93
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a93
+      delay: 10 usec
+      description: eq4asfua02
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/12
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a94
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a94
+      delay: 10 usec
+      description: eq4asfua04
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/13
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a95
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a95
+      delay: 10 usec
+      description: eq4asrtg15
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/14
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a96
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a96
+      delay: 10 usec
+      description: eq4asrtg16
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/15
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a97
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a97
+      delay: 10 usec
+      description: eq4asrtg17
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/16
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a98
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a98
+      delay: 10 usec
+      description: eq4inesx03
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/17
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a99
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a99
+      delay: 10 usec
+      description: eq4inesx04
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/18
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a9a
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a9a
+      delay: 10 usec
+      description: mnappeq445a
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/19
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a9b
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a9b
+      delay: 10 usec
+      description: mnappeq445b
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/20
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a9c
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a9c
+      delay: 10 usec
+      description: appeq4522
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/21
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a9d
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a9d
+      delay: 10 usec
+      description: appeq4523
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/22
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a9e
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a9e
+      delay: 10 usec
+      description: mneq4asrtg28c
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/23
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a9f
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6a9f
+      delay: 10 usec
+      description: mneq4asrtg28d
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/24
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6aa0
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6aa0
+      delay: 10 usec
+      description: appeq4524
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/25
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6aa1
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6aa1
+      delay: 10 usec
+      description: appeq4525
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/26
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6aa2
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6aa2
+      delay: 10 usec
+      description: appeq4103
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/27
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6aa3
+      admin_state: ''
+      bandwidth: 1000000 Kbit
+      bia: 30f7.0d9f.6aa3
+      delay: 10 usec
+      description: appeq4522(build)
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/28
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 1000 Mb/s
+    - address: 30f7.0d9f.6aa4
+      admin_state: ''
+      bandwidth: 1000000 Kbit
+      bia: 30f7.0d9f.6aa4
+      delay: 10 usec
+      description: appeq4523(build)
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/29
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 1000 Mb/s
+    - address: 30f7.0d9f.6aa5
+      admin_state: ''
+      bandwidth: 1000000 Kbit
+      bia: 30f7.0d9f.6aa5
+      delay: 10 usec
+      description: appeq4524(build)
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/30
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 1000 Mb/s
+    - address: 30f7.0d9f.6aa6
+      admin_state: ''
+      bandwidth: 1000000 Kbit
+      bia: 30f7.0d9f.6aa6
+      delay: 10 usec
+      description: appeq4525(build)
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/31
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 1000 Mb/s
+    - address: 30f7.0d9f.6aa7
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6aa7
+      delay: 10 usec
+      description: appeq4101-L1M-EQ404_P10
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/32
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6aa8
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6aa8
+      delay: 10 usec
+      description: mneq4asrtg28a
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/33
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6aa9
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6aa9
+      delay: 10 usec
+      description: mneq4asrtg28b
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/34
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6aaa
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6aaa
+      delay: 10 usec
+      description: mneq4asfuv17a
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/35
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6aab
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6aab
+      delay: 10 usec
+      description: mneq4asfuv19a
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/36
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6aac
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6aac
+      delay: 10 usec
+      description: mnappeq445c
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/37
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6aad
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6aad
+      delay: 10 usec
+      description: mnappeq445d
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/38
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6aae
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6aae
+      delay: 10 usec
+      description: mnappeq444a
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/39
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6aaf
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6aaf
+      delay: 10 usec
+      description: mnappeq444b
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/40
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6ab0
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6ab0
+      delay: 10 usec
+      description: mnappeq444c
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/41
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6ab1
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6ab1
+      delay: 10 usec
+      description: mnappeq444d
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/42
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6ab2
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6ab2
+      delay: 10 usec
+      description: mnappeq443a
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/43
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6ab3
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6ab3
+      delay: 10 usec
+      description: mnappeq443b
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/44
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6ab4
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6ab4
+      delay: 10 usec
+      description: mnappeq443c
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/45
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6ab5
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6ab5
+      delay: 10 usec
+      description: mnappeq443d
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/46
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6ac1
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6ab6
+      delay: 10 usec
+      description: <>REXTEQ402_E1/43_LEAKING
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/47
+      ip_address: 170.52.54.210/30
+      link_status: up
+      mtu: '1500'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6ab7
+      admin_state: ''
+      bandwidth: 10000000 Kbit
+      bia: 30f7.0d9f.6ab7
+      delay: 10 usec
+      description: <>MATRIX-EQ402_E44
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 100/1000/10000 Ethernet
+      interface: Ethernet1/48
+      ip_address: ''
+      link_status: up
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6ac1
+      admin_state: ''
+      bandwidth: 40000000 Kbit
+      bia: 30f7.0d9f.6ab8
+      delay: 10 usec
+      description: <>REXTEQ408_E1/50
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 40000 Ethernet
+      interface: Ethernet1/49
+      ip_address: 170.52.54.162/30
+      link_status: up
+      mtu: '1500'
+      speed: 40 Gb/s
+    - address: 30f7.0d9f.6ac1
+      admin_state: ''
+      bandwidth: 40000000 Kbit
+      bia: 30f7.0d9f.6ab9
+      delay: 10 usec
+      description: <>REXTEQ411_E1/50
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 40000 Ethernet
+      interface: Ethernet1/50
+      ip_address: 170.52.54.169/30
+      link_status: up
+      mtu: '1500'
+      speed: 40 Gb/s
+    - address: 30f7.0d9f.6ac1
+      admin_state: ''
+      bandwidth: 40000000 Kbit
+      bia: 30f7.0d9f.6aba
+      delay: 10 usec
+      description: <>REXTEQ412_E1/50
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 40000 Ethernet
+      interface: Ethernet1/51
+      ip_address: 170.52.54.173/30
+      link_status: up
+      mtu: '1500'
+      speed: 40 Gb/s
+    - address: 30f7.0d9f.6ac1
+      admin_state: ''
+      bandwidth: 40000000 Kbit
+      bia: 30f7.0d9f.6abb
+      delay: 10 usec
+      description: <>REXTEQ413_E1/50
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: 40000 Ethernet
+      interface: Ethernet1/52
+      ip_address: 170.52.54.177/30
+      link_status: up
+      mtu: '1500'
+      speed: 40 Gb/s
+    - address: 30f7.0d9f.6a9b
+      admin_state: ''
+      bandwidth: 20000000 Kbit
+      bia: 30f7.0d9f.6a9b
+      delay: 10 usec
+      description: ''
+      duplex: auto-duplex
+      encapsulation: ARPA
+      hardware_type: Port-Channel
+      interface: port-channel20
+      ip_address: ''
+      link_status: down (No operational members)
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6aac
+      admin_state: ''
+      bandwidth: 20000000 Kbit
+      bia: 30f7.0d9f.6aac
+      delay: 10 usec
+      description: ''
+      duplex: auto-duplex
+      encapsulation: ARPA
+      hardware_type: Port-Channel
+      interface: port-channel21
+      ip_address: ''
+      link_status: down (No operational members)
+      mtu: '56325'
+      speed: 10 Gb/s
+    - address: 30f7.0d9f.6a80
+      admin_state: ''
+      bandwidth: 1000000 Kbit
+      bia: 30f7.0d9f.6a80
+      delay: 10 usec
+      description: <>SILOEQ408_E5
+      duplex: full-duplex
+      encapsulation: ARPA
+      hardware_type: GigabitEthernet
+      interface: mgmt0
+      ip_address: 170.52.37.199/26
+      link_status: up
+      mtu: '1500'
+      speed: 1000 Mb/s
+    - address: 30f7.0d9f.6ac1
+      admin_state: down, autostate enabled
+      bandwidth: 1000000 Kbit
+      bia: ''
+      delay: 10 usec
+      description: ''
+      duplex: ''
+      encapsulation: ''
+      hardware_type: EtherSVI
+      interface: Vlan1
+      ip_address: ''
+      link_status: down (Administratively down)
+      mtu: '1500'
+      speed: ''
+    - address: 30f7.0d9f.6ac1
+      admin_state: up, autostate enabled
+      bandwidth: 1000000 Kbit
+      bia: ''
+      delay: 10 usec
+      description: <>LOWER_LAN#10(170.52.44.0/26)
+      duplex: ''
+      encapsulation: ''
+      hardware_type: EtherSVI
+      interface: Vlan110
+      ip_address: 170.52.44.1/26
+      link_status: up
+      mtu: '1500'
+      speed: ''
+    - address: 30f7.0d9f.6ac1
+      admin_state: up, autostate enabled
+      bandwidth: 1000000 Kbit
+      bia: ''
+      delay: 10 usec
+      description: <>ESX_LOWER_LAN#10(170.52.35.128/26)
+      duplex: ''
+      encapsulation: ''
+      hardware_type: EtherSVI
+      interface: Vlan310
+      ip_address: 170.52.35.129/26
+      link_status: up
+      mtu: '1500'
+      speed: ''
+    - address: ''
+      admin_state: ''
+      bandwidth: 8000000 Kbit
+      bia: ''
+      delay: 5000 usec
+      description: <>Lower_Mgmt
+      duplex: ''
+      encapsulation: LOOPBACK
+      hardware_type: ''
+      interface: loopback100
+      ip_address: 170.52.53.47/32
+      link_status: up
+      mtu: '1500'
+      speed: ''
+  lags:
+    - bundle_iface: Po20
+      bundle_proto: LACP
+      bundle_proto_state: ''
+      bundle_status: (SD)
+      phys_iface:
+      - Eth1/19
+      - Eth1/20
+      phys_iface_status:
+      - (I)
+      - (I)
+    - bundle_iface: Po21
+      bundle_proto: LACP
+      bundle_proto_state: ''
+      bundle_status: (SD)
+      phys_iface:
+      - Eth1/37
+      - Eth1/38
+      phys_iface_status:
+      - (I)
+      - (I)

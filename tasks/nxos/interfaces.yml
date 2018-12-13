@@ -5,25 +5,14 @@
 - name: "Fetch interfaces"
   ntc_show_command:
     command: "show interface"
-    #connection: "offline"
-    #file: "{{ playbook_dir }}/tests/{{ platforms[os] }}/{{ platforms[os] }}_show_interface.raw"
+    connection: "offline"
+    file: "{{ playbook_dir }}/outputs/{{ inventory_hostname }}/show_interface.txt"
     template_dir: "{{ playbook_dir }}/ntc-templates"
-    platform: "{{ platforms[os] }}"
-    host: "{{ inventory_hostname }}"
-    username: "{{ ansible_ssh_user }}"
-    password: "{{ ansible_ssh_pass }}"
-    connection_args:
-      ssh_config_file: "{{ inventory_dir }}/ssh_config"
+    platform: "{{ platforms[ansible_network_os] }}"
   register: interfaces
   tags: ['fetch', 'fetch-interfaces']
 
-- debug:
-    msg: "{{ interfaces }}"
-  tags: ['fetch', 'fetch-interfaces']
-
 - copy:
-    content: "{{ interfaces.response|to_nice_yaml(indent=2) }}"
+    content: "{{ interfaces.response | to_nice_yaml(indent=2) }}"
     dest: "{{ host_results }}/interfaces-{{mcast_group}}.yaml"
   tags: ['fetch', 'fetch-interfaces']
-
-# vim: set ts=2 shiftwidth=2 expandtab:

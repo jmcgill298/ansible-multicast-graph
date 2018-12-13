@@ -1,0 +1,6 @@
+PIM RP Status Information for VRF "LOWER"
+PIM RP Information for group 239.132.12.47 in VRF "LOWER"
+
+RP: 170.52.255.12*, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: EQ4_LOCAL_GRP, group ranges:
+      239.132.12.0/24   

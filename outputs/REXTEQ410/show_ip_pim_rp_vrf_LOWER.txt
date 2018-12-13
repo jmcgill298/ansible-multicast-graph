@@ -1,0 +1,108 @@
+PIM RP Status Information for VRF "LOWER"
+BSR disabled
+Auto-RP disabled
+BSR RP Candidate policy: None
+BSR RP policy: None
+Auto-RP Announce policy: None
+Auto-RP Discovery policy: None
+
+Anycast-RP 170.52.255.12 members:
+  170.52.53.41  170.52.53.42  170.52.53.43  170.52.53.44  170.52.53.45  170.52.53.46  
+  170.52.53.47*  170.52.53.48  170.52.53.49  170.52.53.50  
+
+RP: 170.50.7.254, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: DEFAULT_AMER_SG, group ranges:
+      224.0.1.132/32 (deny)  224.0.1.131/32 (deny)  
+      224.0.1.130/32 (deny)  224.0.1.129/32 (deny)  
+      224.0.0.0/24 (deny)  224.0.0.0/4   
+RP: 170.52.61.1, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: GFX_LOCAL_GRP, group ranges:
+      239.132.100.0/24   
+RP: 170.52.255.10, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: AGS_LOCAL_GRP, group ranges:
+      239.132.10.0/24   
+RP: 170.52.255.11, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: CMA_LOCAL_GRP, group ranges:
+      239.132.11.0/24   
+RP: 170.52.255.12*, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: EQ4_LOCAL_GRP, group ranges:
+      239.132.12.0/24   
+RP: 170.52.255.13, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: EQC_LOCAL_GRP, group ranges:
+      239.132.13.0/24   
+RP: 170.52.255.14, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: MAH_LOCAL_GRP, group ranges:
+      239.132.14.0/24   
+RP: 170.52.255.16, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: TSX_LOCAL_GRP, group ranges:
+      239.132.16.0/24   
+RP: 170.52.255.17, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: VZB_LOCAL_GRP, group ranges:
+      239.132.17.0/24   
+RP: 172.29.201.1, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: Quincy_CMA, group ranges:
+      239.229.1.0/24   239.228.1.0/24   
+RP: 172.29.203.5, (0), uptime: 44w4d, expires: never,
+  priority: 0, RP-source: (local), group-map: Quincy_EQ4, group ranges:
+      239.229.3.0/24   239.228.3.0/24   
+RP: 172.29.204.1, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: Quincy_VZB, group ranges:
+      239.229.4.0/24   239.228.4.0/24   
+RP: 172.29.205.1, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: Quincy_EQC, group ranges:
+      239.229.5.0/24   239.228.5.0/24   
+RP: 172.29.215.1, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: Quincy_MAH, group ranges:
+      239.229.15.0/24   239.228.15.0/24   
+RP: 190.20.10.50, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: LD6_HFNET_EUR_SG, group ranges:
+      239.20.48.0/22   
+RP: 190.20.10.60, (0), uptime: 1y12w, expires: never,
+  priority: 0, RP-source: (local), group-map: LD6_GFX_EUR_SG, group ranges:
+      239.133.16.0/24   
+RP: 190.33.1.3, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: HFNET_EUR_SG, group ranges:
+      239.133.0.0/20   239.135.255.0/24   
+RP: 190.33.50.1, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: INX_HFNET_EUR_SG, group ranges:
+      239.133.1.0/24   
+RP: 190.33.50.2, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: SGH_HFNET_EUR_SG, group ranges:
+      239.133.2.0/24   
+RP: 190.33.50.3, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: BAS_HFNET_EUR_SG, group ranges:
+      239.133.3.0/24   
+RP: 190.33.50.4, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: SLO_HFNET_EUR_SG, group ranges:
+      239.133.4.0/24   
+RP: 190.33.50.5, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: FKT_HFNET_EUR_SG, group ranges:
+      239.133.5.0/24   
+RP: 190.33.50.6, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: STO_HFNET_EUR_SG, group ranges:
+      239.133.6.0/24   
+RP: 190.33.50.7, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: ZRH_HFNET_EUR_SG, group ranges:
+      239.133.7.0/24   
+RP: 190.33.50.8, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: MIL_HFNET_EUR_SG, group ranges:
+      239.133.8.0/24   
+RP: 190.33.50.9, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: MAD_HFNET_EUR_SG, group ranges:
+      239.133.9.0/24   
+RP: 190.33.50.10, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: PAR_HFNET_EUR_SG, group ranges:
+      239.133.10.0/24   
+RP: 190.33.50.11, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: LSE_HFNET_EUR_SG, group ranges:
+      239.133.11.0/24   
+RP: 190.33.50.12, (0), uptime: 12w0d, expires: never,
+  priority: 0, RP-source: (local), group-map: CL3_HFNET_EUR_SG, group ranges:
+      239.133.12.0/24   
+RP: 192.168.255.4, (0), uptime: 1y43w, expires: never,
+  priority: 0, RP-source: (local), group-map: CME_Multicast, group ranges:
+      233.72.75.64/26   233.72.75.0/26   
+      233.158.8.0/24   233.119.160.0/25   
+      224.0.34.0/24   224.0.33.0/24   
+      224.0.32.0/24   224.0.31.0/24   
+      224.0.27.0/24   224.0.26.0/24   

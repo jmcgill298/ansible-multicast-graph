@@ -22,6 +22,7 @@ arista_eos_show_port-channel_summary.template, .*, arista_eos, sh[[ow]] port-c[[
 cisco_ios_show_etherchannel_summary.template, .*, cisco_ios, sh[[ow]] etherc[[hannel]] s[[ummary]]
 
 cisco_nxos_show_ip_igmp_snooping_groups.template, .*, cisco_nxos, sh[[ow]] ip ig[[mp]] s[[nooping]] g[[roups]]
+cisco_nxos_show_port-channel_summary.template, .*, cisco_nxos, sh[[ow]] port-c[[hannel]] s[[ummary]]
 cisco_nxos_show_ip_pim_rp-hash.template, .*, cisco_nxos, sh[[ow]] ip pi[[m]] rp-h[[ash]]
 cisco_nxos_show_lldp_neighbors.template, .*, cisco_nxos, sh[[ow]] ll[[dp]] nei[[ghbors]]
 cisco_nxos_show_ip_pim_rp.template, .*, cisco_nxos, sh[[ow]] ip pi[[m]] rp

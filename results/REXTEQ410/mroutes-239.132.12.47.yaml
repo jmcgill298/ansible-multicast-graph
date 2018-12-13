@@ -1,0 +1,15 @@
+- group: 239.132.12.47/32
+  incoming_iface: loopback100
+  outgoing_iface:
+  - Vlan110
+  - Ethernet1/3
+  outgoing_iface_count: '2'
+  publisher: '*'
+  uptime: 5w2d
+- group: 239.132.12.47/32
+  incoming_iface: Ethernet1/49
+  outgoing_iface:
+  - Vlan110
+  outgoing_iface_count: '1'
+  publisher: 170.52.35.103/32
+  uptime: 09:43:10
